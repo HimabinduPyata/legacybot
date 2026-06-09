@@ -13,3 +13,5 @@ __pycache__/
 
 # Documents folder (keep empty on GitHub)
 documents/*.pdf
+
+faiss_index/
