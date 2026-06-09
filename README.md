@@ -1,32 +1,32 @@
-# 🤖 LegacyBot — AI Copilot for Legacy Codebases
+# LegacyBot — AI Copilot for Legacy Codebases
 
 > *"I joined NCR and inherited 16 years of undocumented legacy code. Every question I couldn't find in the docs meant waiting hours for a teammate. I built LegacyBot so no new engineer ever has to feel that way again."*
 > — Himabindu Pyata, Builder
 
 ---
 
-## 💡 What is LegacyBot?
+## What is LegacyBot?
 
 LegacyBot is a **Slack AI assistant** that helps new engineers on legacy codebases get unblocked instantly — without waiting for a senior teammate.
 
 Instead of:
 ```
-❌ "I don't understand this code, let me wait for someone to be free..."
+ "I don't understand this code, let me wait for someone to be free..."
 ```
 
 Engineers do:
 ```
-✅ @LegacyBot why does the ATM reconciliation job run at 2am?
+ @LegacyBot why does the ATM reconciliation job run at 2am?
 ```
 
 And get an instant answer from **3 sources simultaneously:**
-- 📄 Company documents & runbooks (RAG pipeline)
-- 💬 Past Slack discussions
-- 🐙 GitHub commit history — explains WHY code was written
+- Company documents & runbooks (RAG pipeline)
+- Past Slack discussions
+- GitHub commit history — explains WHY code was written
 
 ---
 
-## 🏆 Built for Slack Agent Builder Challenge 2026
+## Built for Slack Agent Builder Challenge 2026
 
 This project was built for the **Slack Agent Builder Challenge** hackathon.
 
@@ -36,37 +36,37 @@ This project was built for the **Slack Agent Builder Challenge** hackathon.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 📄 **Document Q&A** | Upload PDFs — LegacyBot answers from real company docs using RAG + FAISS |
-| 💬 **Slack History Search** | Searches past channel discussions for relevant answers |
-| 🐙 **GitHub Commit Search** | Explains WHY code changes were made from git history |
-| 🧠 **AI Fallback** | Falls back to GPT-4o-mini general knowledge when no docs match |
-| ⚡ **Fast Startup** | FAISS index saved to disk — instant loading on restart |
-| 🔄 **Live Reload** | Add new docs without restarting: `@LegacyBot reload docs` |
-| 🆘 **Help Command** | `@LegacyBot help` shows all commands |
+| **Document Q&A** | Upload PDFs — LegacyBot answers from real company docs using RAG + FAISS |
+| **Slack History Search** | Searches past channel discussions for relevant answers |
+| **GitHub Commit Search** | Explains WHY code changes were made from git history |
+| **AI Fallback** | Falls back to GPT-4o-mini general knowledge when no docs match |
+| **Fast Startup** | FAISS index saved to disk — instant loading on restart |
+| **Live Reload** | Add new docs without restarting: `@LegacyBot reload docs` |
+| **Help Command** | `@LegacyBot help` shows all commands |
 
 ---
 
-## 🎯 Real World Example
+## Real World Example
 
 ```
 New engineer: @LegacyBot what changes were made to the payment service?
 
-LegacyBot: 💡 Here's what I found:
-Searched: 📄 Documents | 💬 Slack | 🐙 GitHub
+LegacyBot: Here's what I found:
+Searched: Documents | Slack | GitHub
 
-📄 From your documents:
+From your documents:
 The payment service was refactored in Q3 2022 to support
 multi-currency transactions per compliance requirement...
 
-💬 From past Slack discussions:
+From past Slack discussions:
 Team discussed switching from synchronous to async
 processing to handle peak load during holidays...
 
-🐙 From GitHub commit history:
+From GitHub commit history:
 [abc1234] 2022-09-14 by John Smith:
 "Migrated payment service to async — reduced timeout
 errors by 40% during Black Friday load testing"
@@ -74,13 +74,13 @@ errors by 40% during Black Friday load testing"
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 <img width="1164" height="1062" alt="image" src="https://github.com/user-attachments/assets/a498500b-e633-4a7a-81b3-3c4150cd069a" />
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -96,7 +96,7 @@ errors by 40% during Black Friday load testing"
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -145,7 +145,7 @@ python3 app.py
 
 ---
 
-## 💬 Commands
+## Commands
 
 | Command | Description |
 |---------|-------------|
@@ -155,7 +155,7 @@ python3 app.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 legacybot/
@@ -171,7 +171,7 @@ legacybot/
 
 ---
 
-## 🔐 Slack Permissions Required
+## Slack Permissions Required
 
 ```
 app_mentions:read
@@ -186,13 +186,13 @@ mpim:read
 
 ---
 
-## 👩‍💻 Built By
+## Built By
 
 **Himabindu Pyata** — Software Engineer with 5 years experience in Java, Python, and cloud systems.
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/himabindu-pyata-7b8a78bb/)
-- 🐙 [GitHub](https://github.com/HimabinduPyata)
-- 📧 bindu.pyata@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/himabindu-pyata-7b8a78bb/)
+- [GitHub](https://github.com/HimabinduPyata)
+- bindu.pyata@gmail.com
 
 ---
 
