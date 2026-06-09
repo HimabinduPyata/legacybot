@@ -1,0 +1,15 @@
+# Secret keys — never push these!
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.py~
+
+# Mac files
+.DS_Store
+
+# Documents folder (keep empty on GitHub)
+documents/*.pdf
