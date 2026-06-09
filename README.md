@@ -76,32 +76,7 @@ errors by 40% during Black Friday load testing"
 
 ## 🧱 Architecture
 
-```
-Engineer asks in Slack
-         ↓
-  Slack Event (app_mention)
-         ↓
-  Python Backend (Slack Bolt)
-         ↓
-  ┌──────────────────────────┐
-  │     3 Parallel Sources    │
-  │                          │
-  │  📄 RAG Pipeline         │
-  │  (FAISS + OpenAI         │
-  │   Embeddings)            │
-  │                          │
-  │  💬 Slack Channel        │
-  │  History Search          │
-  │                          │
-  │  🐙 GitHub Commit        │
-  │  History (PyGithub)      │
-  └──────────────────────────┘
-         ↓
-  GPT-4o-mini synthesizes
-  combined answer
-         ↓
-  LegacyBot replies in Slack
-```
+<img width="1164" height="1062" alt="image" src="https://github.com/user-attachments/assets/a498500b-e633-4a7a-81b3-3c4150cd069a" />
 
 ---
 
